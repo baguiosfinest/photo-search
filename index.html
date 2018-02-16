@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>StockMNL Photo Search</title>
+</head>
+
+<body>
+
+
+  <header id="unsplash">
+    <div class="container">
+      <h1>Image Search</h1>
+      <h5>Beautiful, free photos.</h5>
+      <h5>Gifted by the world’s most generous community of photographers.</h5>
+    </div>
+    <!-- end .container -->
+  </header>
+  <!-- end #unsplash -->
+
+  <div id="search-form">
+    <div class="container">
+      <div class="row">
+        <div class="col-7">
+          <input id="searchtext" class="form-control form-control-lg" type="text" placeholder="Search Image...">
+        </div>
+        <div class="col-5">
+          <!-- <input id="category" class="form-control form-control-lg" type="text" placeholder="Category"> -->
+          <select class="form-control" id="category">
+            <option value="all">All</option>
+          </select>
+        </div>
+      </div>
+      <!-- end .row -->
+      <div class="row">
+        <div class="col">
+          <button id="btn-sub" type="button" class="btn btn-primary btn-block">Search...</button>
+        </div>
+      </div>
+      <!-- end .row -->
+    </div>
+    <!-- end .container -->
+  </div>
+  <!-- end #search-form -->
+
+  <div id="image-result">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+    <!-- end .spinner -->
+    <div id="imageContainer" class="container">
+      <!-- <a href="http://via.placeholder.com/500x500" data-fancybox data-type="image">
+        <img src="http://via.placeholder.com/200x200" alt="placeholder" />
+      </a> -->
+    </div>
+    <!-- end .container -->
+  </div>
+  <!-- end #image-result -->
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
